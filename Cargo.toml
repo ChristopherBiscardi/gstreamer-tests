@@ -1,0 +1,18 @@
+[package]
+name = "gstreamer-tests"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "tutorials_common"
+
+[dependencies]
+camino = "1.0.9"
+cocoa = "0.24.0"
+gstreamer = "0.18.8"
+
+[features]
+
+test_video = []
